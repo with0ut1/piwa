@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piwny Bar</title>
+    <title>Smakosz Piwa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Smakosz Piwa</h1>
+        <div class="container header-flex">
+            <div class="logo-title">
+                <img src="img/logo.png" alt="Logo Smakosz Piwa" class="logo">
+                <h1>Smakosz Piwa</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Strona Główna</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">O nas</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,7 +28,7 @@
         <div class="container">
             <h2>Witaj w najlepszym piwnym barze w mieście!</h2>
             <p>Oferujemy szeroki wybór piw, atmosferę idealną do relaksu i spotkań z przyjaciółmi.</p>
-            <a href="/app/menu.html" class="btn">Zobacz Menu</a>
+            <a href="menu.html" class="btn">Zobacz Menu</a>
         </div>
     </section>
 
@@ -34,55 +37,53 @@
             <h2>Nasze Piwa</h2>
             <div class="beer-list">
                 <div class="beer-item">
-                    <img src="beer1.jpg" alt="Pilsner">
+                    <img src="img/beer1.jpg" alt="Cydr">
                     <h3>Cydr</h3>
-                    <p>---</p>
+                    <p>Orzeźwiający i owocowy smak, idealny na lato.</p>
                 </div>
                 <div class="beer-item">
-                    <img src="beer2.jpg" alt="IPA">
+                    <img src="img/beer2.jpg" alt="Piwo">
                     <h3>Piwo</h3>
-                    <p>---</p>
+                    <p>Klasyczne lagery, pilsy, IPA i wiele więcej!</p>
                 </div>
                 <div class="beer-item">
-                    <img src="beer3.jpg" alt="Stout">
+                    <img src="img/beer3.jpg" alt="Wino">
                     <h3>Wino</h3>
-                    <p>---</p>
+                    <p>Oferta win regionalnych i importowanych.</p>
                 </div>
                 <div class="beer-item">
-                    <img src="beer4.jpg" alt="Lager">
-                    <h3>Kvas/Lemonady</h3>
-                    <p>---</p>
+                    <img src="img/beer4.jpg" alt="Kvas">
+                    <h3>Kvas / Lemonady</h3>
+                    <p>Domowe napoje bezalkoholowe.</p>
                 </div>
                 <div class="beer-item">
-                    <img src="beer5.jpg" alt="Porter">
+                    <img src="img/beer5.jpg" alt="Inne">
                     <h3>Inne</h3>
-                    <p>---</p>
+                    <p>Ciekawostki i piwa sezonowe - zawsze coś nowego!</p>
                 </div>
-            </div>
-            
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2>O nas</h2>
             <p>Nasza pasja do piwa sprawia, że codziennie serwujemy najlepsze trunki w przytulnej atmosferze. Zawsze znajdziesz u nas coś, co Cię zachwyci!</p>
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <h2>Kontakt</h2>
-            <p>Adres: Ulica, Cedrowa 39, Gdańsk</p>
-            <p>Telefon: ---</p>
-            <a href="mailto:kontakt@piwnybar.pl">kontakt@smakosz.piwa.pl</a>
+            <p>Adres: Cedrowa 39, Gdańsk</p>
+            <p>Telefon: 123-456-789</p>
+            <a href="mailto:kontakt@smakoszpiwa.pl">kontakt@smakoszpiwa.pl</a>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Piwny Bar. Wszystkie prawa zastrzeżone.</p>
+            <p>&copy; 2025 Smakosz Piwa. Wszystkie prawa zastrzeżone.</p>
         </div>
     </footer>
 </body>
